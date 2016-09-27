@@ -20,4 +20,36 @@ $asd=array_count_values($arr);
 print_r ($asd);
 echo "<br>";
 print_r (array_slice($arr,2));
+//доделать
+
+echo "<br>";
+$number=-6;
+$bou=abs($number);
+echo $bou;
+echo "<br>";
+$val=3.89254;
+$foo=round($val);
+echo $foo;
+echo "<br>";
+$numb=9.1;
+$fo=ceil($numb);
+echo $fo;
+echo "<br>";
+$numbone=9.1;
+$f=floor($numbone);
+echo $f;
+echo "<br>";
+$array= array (
+	"one"=>"3",
+	"two"=>"5",
+	"three"=>"2",
+	"four"=>"4",
+	"five"=>"1",
+	);
+print_r(min($array));
+echo "<br>";
+print_r(max($array));
+echo "<br>";
+$fok=36;
+echo sqrt($fok);
 ?>
