@@ -20,7 +20,19 @@ $asd=array_count_values($arr);
 print_r ($asd);
 echo "<br>";
 print_r (array_slice($arr,2));
-//доделать
+echo "<br>";
+print_r (array_splice($arr,2,3));
+echo "<br>";
+$abb="добавили справа";
+print_r (array_push($arr,$abb));
+echo "<br>";
+print_r (array_pop($arr));
+echo "<br>";
+$acc="добавили слева";
+print_r (array_unshift($arr,$acc));
+echo "<br>";
+print_r (array_shift($arr));
+echo "<br>";
 
 echo "<br>";
 $number=-6;
